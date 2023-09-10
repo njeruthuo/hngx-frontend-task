@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FRONTEND TASK | HNGx</title>
+    </head>
+    <body>
+        <div class="appbar">
+            <h2>HNGx Frontend Task</h2>
+        </div>
+
+        <div class="container">
+            <div class="intro-container">
+                <img
+                    src="./profile.jpeg"
+                    alt="Julius Njeru"
+                    data-testid="slackDisplayImage"
+                />
+
+                <div>
+                    <div class="names">
+                        <h1>Slack Name:</h1>
+                        <h1 id="name" data-testid="slackUserName">
+                            Julius Njeru
+                        </h1>
+                    </div>
+
+                    <table>
+                        <tr>
+                            <td>Current Day of the Week:</td>
+                            <td>
+                                <p
+                                    id="currentDayOfTheWeek"
+                                    data-testid="currentDayOfTheWeek"
+                                ></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Current UTC Time:</td>
+                            <td>
+                                <p
+                                    id="currentUTCTime"
+                                    data-testid="currentUTCTime"
+                                ></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Track:</td>
+                            <td>
+                                <p data-testid="myTrack">Frontend</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>GitHub Repository:</td>
+                            <td>
+                                <a
+                                    href="https://github.com/njeruthuo/hngx-frontend-task.git"
+                                    data-testid="githubURL"
+                                    >GitHub Repository
+                                    <i
+                                        ><img
+                                            id="icon"
+                                            src="./link-icon.png"
+                                            alt=""
+                                    /></i>
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <script src="./app.js"></script>
+    </body>
+</html>

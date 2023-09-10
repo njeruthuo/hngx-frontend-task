@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,500&family=Roboto:ital,wght@0,300;1,700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+.intro-container img {
+    height: 40vh;
+    border-radius: 10px;
+}
+
+.appbar {
+    min-height: 6rem;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    background: rgb(250, 177, 49);
+    margin-bottom: 2rem;
+    background: linear-gradient(
+        90deg,
+        rgba(250, 177, 49, 0.7539390756302521) 7%,
+        rgba(35, 204, 185, 1) 43%,
+        rgba(161, 69, 252, 0.6811099439775911) 93%
+    );
+}
+
+.appbar h2 {
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: row;
+    /* align-items: space-between; */
+    justify-content: space-around;
+    vertical-align: top;
+}
+
+.names {
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+.names h1 {
+    font-weight: lighter;
+}
+
+td {
+    padding: 12px;
+}
+
+#name {
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+#icon {
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    color: blue;
+}
